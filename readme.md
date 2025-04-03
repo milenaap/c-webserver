@@ -23,3 +23,9 @@ nodemon app.js
 
 npm i express
 
+## Handlebars
+```sh
+
+npm install hbs
+
+

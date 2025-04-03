@@ -4,13 +4,14 @@ import {dirname} from 'path';
 import { fileURLToPath } from 'url';
 import path from 'path';
 import hbs from 'hbs';
+import 'dotenv/config';
 
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const app = express();
-const port = 8080;
+const port = process.env.PORT;
 
 // const myLogged = (req, res, next) => {
 //     console.log('LOGGED');

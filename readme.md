@@ -8,6 +8,8 @@ npm init -y
 node app.js
 nodemon app.js
 
+npm i dotenv
+
 ```
 
 ## Run server
@@ -22,6 +24,7 @@ nodemon app.js
 ```sh
 
 npm i express
+
 
 ## Handlebars
 ```sh
